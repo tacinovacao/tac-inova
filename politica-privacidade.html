@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade — Metas e Planos</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a2e;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #000;
+            padding: 28px 24px;
+            text-align: center;
+        }
+        header .logo-texto {
+            font-size: 26px;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 0.5px;
+        }
+        header .logo-texto span {
+            color: #f97316;
+        }
+        header .subtitulo {
+            font-size: 13px;
+            color: #888;
+            margin-top: 4px;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 40px auto;
+            padding: 0 20px 60px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.07);
+        }
+
+        .titulo-pagina {
+            font-size: 28px;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 6px;
+        }
+
+        .atualizacao {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #f97316;
+            margin: 28px 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #334155;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin: 8px 0 12px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        ul li {
+            font-size: 15px;
+            color: #334155;
+            padding: 6px 0 6px 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #f97316;
+            font-weight: bold;
+        }
+
+        a {
+            color: #f97316;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+
+        .destaque {
+            background: #fff7ed;
+            border-left: 4px solid #f97316;
+            border-radius: 0 8px 8px 0;
+            padding: 14px 18px;
+            margin: 16px 0;
+            font-size: 14px;
+            color: #7c3a00;
+        }
+
+        .rodape {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        .rodape strong { color: #f97316; }
+
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #555;
+        }
+        footer a { color: #f97316; }
+
+        @media (max-width: 600px) {
+            .card { padding: 24px 18px; }
+            .titulo-pagina { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-texto">Metas<span>&</span>Planos</div>
+    <div class="subtitulo">by TAC Inova</div>
+</header>
+
+<div class="container">
+    <div class="card">
+
+        <div class="titulo-pagina">Política de Privacidade</div>
+        <div class="atualizacao">Última atualização: Março de 2026</div>
+
+        <h2>1. Introdução</h2>
+        <p>
+            A sua privacidade é importante para nós. Esta Política de Privacidade descreve como o aplicativo
+            <strong>Metas e Planos</strong>, desenvolvido por <strong>TAC Inova</strong>, coleta, armazena
+            e protege seus dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD —
+            Lei nº 13.709/2018) e demais legislações aplicáveis.
+        </p>
+
+        <h2>2. Dados coletados</h2>
+        <p>O app pode coletar os seguintes dados dependendo das funcionalidades utilizadas:</p>
+        <ul>
+            <li>
+                <strong>Dados locais:</strong> projetos, valores, progresso e preferências de uso,
+                armazenados exclusivamente no dispositivo via localStorage. Esses dados não são
+                transmitidos a nenhum servidor.
+            </li>
+            <li>
+                <strong>Dados de conta (opcional):</strong> caso você utilize o login com Google,
+                coletamos seu nome, endereço de e-mail e foto de perfil fornecidos pelo Google,
+                exclusivamente para identificação e sincronização do backup na nuvem.
+            </li>
+            <li>
+                <strong>Dados de backup na nuvem (opcional):</strong> se ativado, seus dados de projetos
+                são sincronizados com o Firebase/Firestore, vinculados à sua própria conta Google.
+                Esses dados são acessíveis somente por você e não são visualizados pelo desenvolvedor.
+            </li>
+        </ul>
+
+        <div class="destaque">
+            ℹ️ O uso do login com Google e do backup na nuvem é completamente opcional. O app funciona
+            integralmente de forma offline sem necessidade de login.
+        </div>
+
+        <h2>3. Finalidade do uso dos dados</h2>
+        <p>Os dados coletados são utilizados exclusivamente para:</p>
+        <ul>
+            <li>Exibir e gerenciar seus projetos e metas dentro do app</li>
+            <li>Sincronizar o backup dos seus dados na nuvem (se ativado)</li>
+            <li>Identificar sua conta para acesso ao backup pessoal</li>
+            <li>Enviar notificações locais de lembrete diário (geradas no próprio dispositivo)</li>
+        </ul>
+        <p>
+            <strong>Não utilizamos seus dados para fins comerciais, publicidade, análise de comportamento
+            ou compartilhamento com terceiros.</strong>
+        </p>
+
+        <h2>4. Armazenamento e segurança</h2>
+        <ul>
+            <li>
+                <strong>Dados locais:</strong> ficam armazenados no dispositivo e são apagados
+                automaticamente em caso de desinstalação do app.
+            </li>
+            <li>
+                <strong>Dados na nuvem:</strong> protegidos pela infraestrutura de segurança do
+                Google Firebase, com acesso restrito ao titular da conta. Consulte a
+                <a href="https://firebase.google.com/support/privacy" target="_blank">
+                Política de Privacidade do Firebase</a>.
+            </li>
+            <li>
+                <strong>Senha/PIN:</strong> armazenada localmente de forma criptografada (SHA-256).
+                O desenvolvedor não tem acesso à sua senha.
+            </li>
+        </ul>
+
+        <h2>5. Notificações</h2>
+        <p>
+            O app pode enviar notificações locais de lembrete diário para que você não esqueça de
+            registrar suas metas. Essas notificações são geradas integralmente no dispositivo e
+            não envolvem transmissão de dados externos. Você pode desativar as notificações a
+            qualquer momento nas configurações do app ou do sistema operacional.
+        </p>
+
+        <h2>6. Compartilhamento de dados</h2>
+        <p>
+            Nenhum dado é compartilhado com terceiros, exceto com o Google LLC (Firebase/Google Sign-In)
+            para fins de autenticação e backup em nuvem, conforme descrito nesta Política e sujeito à
+            <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a>.
+        </p>
+
+        <h2>7. Direitos do usuário</h2>
+        <p>Em conformidade com a LGPD, você tem direito a:</p>
+        <ul>
+            <li>Acessar os dados armazenados sobre você</li>
+            <li>Excluir todos os dados locais do app a qualquer momento</li>
+            <li>Desconectar sua conta Google e remover dados da nuvem</li>
+            <li>Desativar notificações e proteção por PIN</li>
+            <li>Solicitar informações sobre o tratamento dos seus dados pelo e-mail de contato</li>
+        </ul>
+
+        <h2>8. Menores de idade</h2>
+        <p>
+            O app não é direcionado a menores de 13 anos. Não coletamos intencionalmente dados
+            de crianças. Caso tome conhecimento de coleta indevida, entre em contato pelo e-mail abaixo.
+        </p>
+
+        <h2>9. Alterações nesta política</h2>
+        <p>
+            Esta Política de Privacidade pode ser atualizada periodicamente. A data da última
+            atualização será sempre indicada no topo desta página. Recomendamos a consulta periódica.
+            O uso continuado do app após alterações implica aceitação da versão vigente.
+        </p>
+
+        <h2>10. Contato</h2>
+        <p>
+            Para dúvidas, solicitações ou exercício dos seus direitos relacionados a esta Política,
+            entre em contato:
+        </p>
+        <p>
+            📧 <a href="mailto:tac.inovacao@gmail.com">tac.inovacao@gmail.com</a><br>
+            🏢 <strong>TAC Inova</strong>
+        </p>
+
+        <div class="rodape">
+            <p>© 2026 <strong>TAC Inova</strong> — Todos os direitos reservados.</p>
+            <p style="margin-top:6px;">Metas e Planos — versão 1.0.0</p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>
+        <strong style="color:#fff;">Metas e Planos</strong> by
+        <a href="mailto:tac.inovacao@gmail.com">TAC Inova</a> &nbsp;|&nbsp;
+        <a href="mailto:tac.inovacao@gmail.com">tac.inovacao@gmail.com</a>
+    </p>
+</footer>
+
+</body>
+</html>
